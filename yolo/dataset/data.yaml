@@ -1,0 +1,18 @@
+# Dán đường dẫn vừa copy vào đây.
+# LƯU Ý QUAN TRỌNG: Sửa hết dấu gạch chéo ngược (\) thành dấu gạch chéo xuôi (/)
+train: E:/visual code/data/dataset/train/images
+
+# Vì bạn không có thư mục valid, hãy dùng luôn đường dẫn trên cho dòng val
+val: E:/visual code/data/dataset/train/images
+
+# Số lượng class
+nc: 1
+
+# Tên class (đảm bảo đúng tên bạn muốn)
+names: ['moihan']
+roboflow:
+  workspace: gnett
+  project: my-first-project-lli7l
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gnett/my-first-project-lli7l/dataset/1
